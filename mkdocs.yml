@@ -1,0 +1,79 @@
+site_name: Generatywna AI na UW - dobre praktyki 
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  logo: assets/delab_icon.png
+  favicon: assets/delab_flavicon1.png
+  plugins:
+    - typeset
+    - search
+
+  features:
+    - navigation.instant
+    - navigation.footer
+    - header.autohide
+    - search.highlight 
+    - search.share
+    - search.suggest
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+  
+  language: pl 
+
+  palette:
+    scheme: delab
+    accent: blue
+  
+  font:
+    text: Calibri
+
+extra_css: 
+  - extra.css
+
+nav:
+  - O raporcie: "index.md"
+  - Dobre praktyki: "cel.md"
+  - Badanie DELab UW: "badanie.md"
+  - Generatywna AI : "gen_ai.md"
+  - Narzędzia genAI: "narzedzia.md"
+  - Wytyczne UW dla genAI: "wytyczne.md"
+  - Bezpieczeństwo danych: "dane.md"
+  - Wyzwania etyczne: "etyka.md"
+  - GenAI w badaniach: "praca_badania.md"
+  - GenAI w dydaktyce: "dydaktyka.md"
+  - GenAI a zajęcia: "kursy.md"
+  - Detektory genAI: "detektory.md"
+  - GenAI w studiowaniu: "studiowanie.md"
+  - Weryfikacja genAI: "tresci.md"
+  - Monitorowanie użycia genAI: "sledzenie.md"
+  - Cytowanie genAI: "cytowanie.md"
+  - Rozwój kompetencji: "kompetencje.md"
+  - GenAI w tym raporcie: "raport.md"
+
+markdown_extensions:
+  - toc:
+      title: Na tej stronie
+  - pymdownx.details
+  - admonition
+  - pymdownx.superfences
+
+extra:
+  generator: true
+  social:
+    - icon: fontawesome/solid/d
+      link: https://delab.uw.edu.pl/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/delabuw/mycompany/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/delabuw/?e=74fefe54-4de4-4c14-a4bd-c3e42ef26d65&g=5
+    - icon: simple/youtube
+      link: https://www.youtube.com/channel/UCuImpIgqCAqa-H0KMCJXfGw
+    - icon: simple/x
+      link: https://x.com/DELabUW
+    - icon: simple/facebook
+      link: https://www.facebook.com/DELabUW
+    
+
+
