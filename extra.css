@@ -100,3 +100,10 @@ h1.custom-header-title {
 .md-typeset .film > summary {
   background-color:  #3485c82d;
 }
+
+/* Ukryj oryginalny tekst "Następna strona" */
+.md-footer__direction {
+  display: none;
+}
+
+
